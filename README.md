@@ -1,5 +1,8 @@
 # Getting Started
 
+## SWAGGER UI
+* Ir al siguiente enlace: http://localhost:8081/app/swagger-ui/index.html
+
 ### Reference Documentation
 
 For further reference, please consider the following sections:
