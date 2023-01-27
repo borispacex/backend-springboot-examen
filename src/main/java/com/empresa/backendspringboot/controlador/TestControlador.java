@@ -11,6 +11,10 @@ public class TestControlador {
     @RequestMapping
     @ResponseBody
     public ResponseEntity<String> function() {
-        return new ResponseEntity<>("Hola desde el CONTROLADOR", HttpStatus.OK);
+        String content = "<body>"
+                        + "<h1><span>Esto es una REST API en </span> SpringBoot</h1>"
+                        + "<p>Para realizar pruebas a la API: <a href=\"http://localhost:8081/swagger-ui/index.html\">Documentacion SWAGGER UI</a></p>"
+                        + "</body>";
+        return new ResponseEntity<>(content, HttpStatus.OK);
     }
 }
