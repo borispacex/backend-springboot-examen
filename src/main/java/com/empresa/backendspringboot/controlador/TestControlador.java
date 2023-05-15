@@ -11,8 +11,8 @@ public class TestControlador {
     @RequestMapping
     @ResponseBody
     public ResponseEntity<String> function() {
-        // String urlSwagger = "http://localhost:8081/swagger-ui/index.html";
-        String urlSwagger = "https://ms-examen.azurewebsites.net/swagger-ui/index.html";
+        String urlSwagger = "http://localhost:8081/swagger-ui/index.html";
+        // String urlSwagger = "https://ms-examen.azurewebsites.net/swagger-ui/index.html";
         String content = "<body>"
                         + "<h2><span>Esto es una REST API en </span> SpringBoot</h2>"
                         + "<p>Para realizar pruebas a la API: <a href=\"" + urlSwagger + "\">Documentacion SWAGGER UI</a></p>"
